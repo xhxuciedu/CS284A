@@ -89,3 +89,20 @@ class UNet(nn.Module):
         decode_block1 = self.crop_and_concat(cat_layer1, encode_block1, crop=True)
         final_layer = self.final_layer(decode_block1)
         return  final_layer
+
+    
+# unet = Unet(in_channel=1,out_channel=2)
+# #out_channel represents number of segments desired
+# criterion = torch.nn.CrossEntropyLoss()
+# optimizer = torch.optim.SGD(unet.parameters(), lr = 0.01, momentum=0.99)
+# optimizer.zero_grad()       
+# outputs = unet(inputs)
+# # permute such that number of desired segments would be on 4th dimension
+# outputs = outputs.permute(0, 2, 3, 1)
+# m = outputs.shape[0]
+# # Resizing the outputs and label to caculate pixel wise softmax loss
+# outputs = outputs.resize(m*width_out*height_out, 2)
+# labels = labels.resize(m*width_out*height_out)
+# loss = criterion(outputs, labels)
+# loss.backward()
+# optimizer.step()
