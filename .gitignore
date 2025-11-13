@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+notebooks/venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Downloaded Datasets
+chest_xray/
+chest-xray-pneumonia/
+data/
+datasets/
+*.zip
+*.tar.gz
+*.tar
+
+# Kagglehub cache
+.kaggle/
+kagglehub/
+~/.cache/kagglehub/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model checkpoints and outputs
+*.pth
+*.pt
+*.h5
+*.ckpt
+models/
+checkpoints/
+outputs/
+logs/
+runs/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.parquet
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+
+# Large image/media files (keep small examples)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+!examples/**/*.jpg
+!examples/**/*.jpeg
+!examples/**/*.png
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
