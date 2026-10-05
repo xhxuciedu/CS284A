@@ -1,6 +1,0 @@
-medmnist>=3.0,<4
-torch>=2.2,<3
-torchvision>=0.17,<1
-numpy>=1.26,<3
-scikit-learn>=1.4,<2
-matplotlib>=3.8,<4
