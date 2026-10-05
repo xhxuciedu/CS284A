@@ -1,0 +1,4 @@
+biopython>=1.83,<2
+numpy>=1.26,<3
+requests>=2.31,<3
+matplotlib>=3.8,<4

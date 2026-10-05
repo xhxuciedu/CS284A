@@ -1,0 +1,25 @@
+# Shared environment for all CS184A/284A companion notebooks (tested with Python 3.13, 2026-09).
+# Install:  python -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+seaborn>=0.13
+requests>=2.31
+jupyter>=1.0
+ipykernel>=6.29
+jupytext>=1.16
+# deep learning (L07–L13, L17–L19)
+torch>=2.3
+torchvision>=0.18
+# datasets
+medmnist>=3.0             # BloodMNIST, PathMNIST (L08–L10)
+nibabel>=5.2              # MRI volumes (L10a)
+# single-cell (L14–L18)
+scanpy>=1.10
+leidenalg>=0.10
+umap-learn>=0.5
+# protein language models (L13) and structures (L20)
+transformers>=4.40
+biopython>=1.83
